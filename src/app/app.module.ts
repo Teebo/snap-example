@@ -10,6 +10,7 @@ import { OurServicesComponent } from './views/our-services/our-services.componen
 import { ContactUsComponent } from './views/contact-us/contact-us.component';
 import { CareersComponent } from './views/careers/careers.component';
 import { CareerDetailComponent } from './views/career-detail/career-detail.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CareerDetailComponent } from './views/career-detail/career-detail.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
