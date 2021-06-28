@@ -122,7 +122,7 @@ export class NavigationComponent implements OnInit, AfterViewInit {
 
     // Tween to 0,0 to remove the transforms
     gsap.fromTo(this.menuBox.node, duration, { x: x, y: y }, { x: -100, y: 0, ease: Cubic.easeInOut });
-    gsap.fromTo(this.logo.node, duration, { x: logox, y: logoy }, { x: +100, y: 0, ease: Cubic.easeInOut });
+    gsap.fromTo(this.logo.node, duration, { x: logox, y: logoy }, { x: +100, y: 0, opacity: 1, ease: Cubic.easeInOut });
   }
 
 }
